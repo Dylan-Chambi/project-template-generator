@@ -1,0 +1,1 @@
+Añadir un endpoint de (inferencia de vision artificial) (Enviar una imagen, procesar y dar informacion informacion) [Hacer con la YOLO y que te devuelva la cantidad de personas] /people_count
