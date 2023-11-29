@@ -3,6 +3,7 @@ ARG OPENAI_KEY
 ENV OPENAI_KEY=$OPENAI_KEY
 ENV PORT 8000
 
+RUN apt-get update && apt-get install libgl1 -y
 
 RUN curl -L https://storage.googleapis.com/mediapipe-models/object_detector/efficientdet_lite0/int8/1/efficientdet_lite0.tflite -o efficientdet.tflite
 
