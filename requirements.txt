@@ -6,7 +6,6 @@ langchain
 python-dotenv
 ruff
 opencv-python
-ultralytics
-python-multipart
 Pillow
 numpy
+mediapipe
