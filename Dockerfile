@@ -7,8 +7,6 @@ RUN curl -L https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov
 COPY requirements.txt /
 RUN pip install -r requirements.txt
 
-#https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8m-seg.pt
-
 COPY ./src /src
 #COPY .env /.env
 
